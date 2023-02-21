@@ -311,8 +311,7 @@ padding-top: 40px;
         padding-top: 30px;
     }
 }
-
-@media (max-width: 320px){
+@media (max-width: 390px){
     /*----header-----*/
     header{
         background-color: black;
@@ -352,7 +351,7 @@ padding-top: 40px;
     /*----inicio-main----*/
     .main-inicio{
         height: 550px;
-        grid-template: repeat(2,275px)/repeat(1,320px);
+        grid-template: repeat(2,275px)/repeat(1,390px);
         grid-template-areas: "imagen1" "imagen2";
     }
     /*----ayuda-main----*/
@@ -397,4 +396,13 @@ padding-top: 40px;
         font-weight: 500;
         font-size: 14px;
     }
+}
+@media (max-width: 320px){
+
+    .main-inicio{
+        height: 550px;
+        grid-template: repeat(2,275px)/repeat(1,320px);
+        grid-template-areas: "imagen1" "imagen2";
+    }
+    
 }
